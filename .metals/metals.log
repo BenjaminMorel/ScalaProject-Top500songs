@@ -1,0 +1,812 @@
+2022.11.02 20:48:35 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\lsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.02 20:48:38 INFO  logging to file C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\metals.log
+2022.11.02 20:48:38 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs' for client Visual Studio Code 1.72.2.
+2022.11.02 20:48:38 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files\Java\jre1.8.0_291, javac exists: false)
+2022.11.02 20:48:40 INFO  time: initialize in 2.16s
+2022.11.02 20:48:42 WARN  Build server is not auto-connectable.
+2022.11.02 20:48:42 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+2022.11.02 20:48:42 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\build.sbt
+2022.11.02 20:48:47 INFO  running 'C:\Program Files\Java\jre1.8.0_291\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.7.1 -jar C:\Users\benja\AppData\Local\Temp\metals6296601279290681758\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.02 20:48:48 ERROR [info] [launcher] getting org.scala-sbt sbt 1.7.1  (this may take some time)...
+2022.11.02 20:49:03 INFO  no build target found for C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala. Using presentation compiler with project's scala-library version: 3.2.0
+nov. 02, 2022 8:49:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+nov. 02, 2022 8:49:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2022.11.02 20:49:08 INFO  time: code lens generation in 4.3s
+2022.11.02 20:49:08 INFO  time: code lens generation in 21s
+2022.11.02 20:49:08 INFO  time: code lens generation in 3.45s
+2022.11.02 20:49:08 INFO  time: code lens generation in 3.67s
+2022.11.02 20:49:08 INFO  time: code lens generation in 4.02s
+2022.11.02 20:49:08 INFO  time: code lens generation in 25s
+2022.11.02 20:49:08 INFO  time: code lens generation in 22s
+2022.11.02 20:49:08 INFO  time: code lens generation in 4.12s
+2022.11.02 20:49:08 INFO  time: code lens generation in 19s
+2022.11.02 20:49:08 INFO  time: code lens generation in 23s
+2022.11.02 20:49:08 INFO  time: code lens generation in 4.04s
+2022.11.02 20:49:38 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+2022.11.02 20:49:38 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+2022.11.02 20:49:39 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.7.1/sbt-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.7.0/io_2.12-1.7.0.jar ...
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.7.1/run_2.12-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.7.1/actions_2.12-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.16/scala-library-2.12.16.jar ...
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.7.1/logic_2.12-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.7.1/main_2.12-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.7.1/main-settings_2.12-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR :: loading settings :: url = jar:file:/C:/Users/benja/AppData/Local/Temp/metals6296601279290681758/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml
+2022.11.02 20:49:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.7.1!run_2.12.jar (548ms)
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.7.1/command_2.12-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.7.1!logic_2.12.jar (942ms)
+2022.11.02 20:49:55 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.7.1!sbt.jar (971ms)
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.7.1/scripted-plugin_2.12-1.7.1.jar ...
+2022.11.02 20:49:55 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.7.1/collections_2.12-1.7.1.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.7.1!actions_2.12.jar (1130ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.7.1/zinc-lm-integration_2.12-1.7.1.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.7.0!io_2.12.jar (1417ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.7.1/util-logging_2.12-1.7.1.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.7.1!scripted-plugin_2.12.jar (493ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.7.1!main-settings_2.12.jar (1434ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.3/launcher-interface-1.3.3.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.7.1!zinc-lm-integration_2.12.jar (503ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.7.1!collections_2.12.jar (810ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.10/lm-coursier-shaded_2.12-2.0.10.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.7.1!command_2.12.jar (1385ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar ...
+2022.11.02 20:49:56 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.3.3!launcher-interface.jar (591ms)
+2022.11.02 20:49:56 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.7.1!main_2.12.jar (2264ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.7.1!util-logging_2.12.jar (934ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.7.0/librarymanagement-core_2.12-1.7.0.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.16!scala-library.jar (2387ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.7.0/librarymanagement-ivy_2.12-1.7.0.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] com.github.ben-manes.caffeine#caffeine;2.8.5!caffeine.jar (817ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.7.1/compiler-interface-1.7.1.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.17.1!log4j-api.jar (910ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.7.1/zinc-compile_2.12-1.7.1.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.17.1!log4j-slf4j-impl.jar (630ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.7.1/util-relation_2.12-1.7.1.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.7.1!compiler-interface.jar (707ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.7.1/util-position_2.12-1.7.1.jar ...
+2022.11.02 20:49:57 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.17.1!log4j-core.jar (1145ms)
+2022.11.02 20:49:57 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.7.1!zinc-compile_2.12.jar (528ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.16/scala-reflect-2.12.16.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.3.0!scala-xml_2.12.jar(bundle) (1960ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.7.0!librarymanagement-ivy_2.12.jar (1041ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.7.0!librarymanagement-core_2.12.jar (1130ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.7.1!util-relation_2.12.jar (630ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.7.1/completion_2.12-1.7.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-scalajson_2.12;0.9.1!sjson-new-scalajson_2.12.jar (560ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.7.1/task-system_2.12-1.7.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.7.1!util-position_2.12.jar (630ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.7.1/tasks_2.12-1.7.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-jawn-parser_2.12;0.9.1!shaded-jawn-parser_2.12.jar (715ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.7.1/testing_2.12-1.7.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar (761ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.7.1/util-tracking_2.12-1.7.1.jar ...
+2022.11.02 20:49:58 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-core_2.12;0.9.1!sjson-new-core_2.12.jar (889ms)
+2022.11.02 20:49:58 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.7.1!task-system_2.12.jar (661ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.7.1/zinc-classpath_2.12-1.7.1.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.7.1!tasks_2.12.jar (808ms)
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.7.1!completion_2.12.jar (1068ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.7.1/zinc-apiinfo_2.12-1.7.1.jar ...
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.7.1/zinc_2.12-1.7.1.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.7.1!testing_2.12.jar (540ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.7.1/util-control_2.12-1.7.1.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.7.1!util-tracking_2.12.jar (517ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.7.1!zinc-classpath_2.12.jar (406ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal;3.19.0!jline-terminal.jar (596ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.7.1!zinc-apiinfo_2.12.jar (312ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.7.1/util-interface-1.7.1.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.16!scala-reflect.jar (1552ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.7.1/core-macros_2.12-1.7.1.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.7.1!zinc_2.12.jar (335ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.7.1!util-control_2.12.jar (251ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.10!lm-coursier-shaded_2.12.jar (3241ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt.jline#jline;2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493!jline.jar (357ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.16/scala-compiler-2.12.16.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.jline#jline-reader;3.19.0!jline-reader.jar (296ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.7.1!util-interface.jar (256ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.9/file-tree-views-2.1.9.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.jline#jline-builtins;3.19.0!jline-builtins.jar (272ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.0/jna-5.12.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jna;3.19.0!jline-terminal-jna.jar (365ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.7.1!core-macros_2.12.jar (430ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar ...
+2022.11.02 20:49:59 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jansi;3.19.0!jline-terminal-jansi.jar (412ms)
+2022.11.02 20:49:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.7.1/util-cache_2.12-1.7.1.jar ...
+2022.11.02 20:50:01 ERROR 	[SUCCESSFUL ] com.lmax#disruptor;3.4.2!disruptor.jar (599ms)
+2022.11.02 20:50:01 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar ...
+2022.11.02 20:50:01 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;2.1.0!jansi.jar (875ms)
+2022.11.02 20:50:01 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.7.1/test-agent-1.7.1.jar ...
+2022.11.02 20:50:01 ERROR 	[SUCCESSFUL ] com.swoval#file-tree-views;2.1.9!file-tree-views.jar (882ms)
+2022.11.02 20:50:01 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar ...
+2022.11.02 20:50:01 ERROR 	[SUCCESSFUL ] org.jline#jline-style;3.19.0!jline-style.jar (976ms)
+2022.11.02 20:50:01 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.7.1/compiler-bridge_2.12-1.7.1.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-murmurhash_2.12;0.9.1!sjson-new-murmurhash_2.12.jar (1051ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.7.1/zinc-classfile_2.12-1.7.1.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna-platform;5.12.0!jna-platform.jar (1466ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna;5.12.0!jna.jar (1598ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.7.1!test-agent.jar (819ms)
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.7.1!util-cache_2.12.jar (1459ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar ...
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar (941ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.7.1!compiler-bridge_2.12.jar (739ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.7.1!zinc-classfile_2.12.jar (468ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] com.jcraft#jsch;0.1.54!jsch.jar (463ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-apache-http_2.12;0.7.0!gigahorse-apache-http_2.12.jar (519ms)
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-core_2.12;0.7.0!gigahorse-core_2.12.jar (470ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.7.1/zinc-core_2.12-1.7.1.jar ...
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.7.1/zinc-persist_2.12-1.7.1.jar ...
+2022.11.02 20:50:02 ERROR 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.3!reactive-streams.jar (561ms)
+2022.11.02 20:50:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.7.1/zinc-compile-core_2.12-1.7.1.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.28!slf4j-api.jar (573ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.7.1/zinc-persist-core-assembly-1.7.1.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.6.1!ssl-config-core_2.12.jar(bundle) (731ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] com.typesafe#config;1.4.2!config.jar(bundle) (674ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.7.1!zinc-persist_2.12.jar (734ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.7.1!zinc-core_2.12.jar (811ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.7.1/protocol_2.12-1.7.1.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] net.openhft#zero-allocation-hashing;0.10.1!zero-allocation-hashing.jar(bundle) (465ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.16!scala-compiler.jar (3323ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.5.0/ipcsocket-1.5.0.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(bundle) (768ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.7.1!zinc-compile-core_2.12.jar (917ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbinary_2.12;0.5.1!sbinary_2.12.jar (526ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.6.0/scala-collection-compat_2.12-2.6.0.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.7.1!protocol_2.12.jar (539ms)
+2022.11.02 20:50:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar ...
+2022.11.02 20:50:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.7.1!zinc-persist-core-assembly.jar (970ms)
+2022.11.02 20:50:04 ERROR 	[SUCCESSFUL ] org.scala-sbt#template-resolver;0.1!template-resolver.jar (338ms)
+2022.11.02 20:50:04 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.5.0!ipcsocket.jar (357ms)
+2022.11.02 20:50:04 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;2.6.0!scala-collection-compat_2.12.jar (336ms)
+2022.11.02 20:50:04 ERROR 	[SUCCESSFUL ] com.google.errorprone#error_prone_annotations;2.4.0!error_prone_annotations.jar (341ms)
+2022.11.02 20:50:04 ERROR 	[SUCCESSFUL ] org.checkerframework#checker-qual;3.4.1!checker-qual.jar (402ms)
+2022.11.02 20:50:04 ERROR 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745!ivy.jar (478ms)
+2022.11.02 20:50:04 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-apache-httpasyncclient;0.7.0!shaded-apache-httpasyncclient.jar (2429ms)
+2022.11.02 20:50:04 ERROR :: retrieving :: org.scala-sbt#boot-app
+2022.11.02 20:50:04 ERROR 	confs: [default]
+2022.11.02 20:50:04 ERROR 	81 artifacts copied, 0 already retrieved
+2022.11.02 20:50:04 ERROR [info] [launcher] getting Scala 2.12.16 (for sbt)...
+2022.11.02 20:50:06 ERROR downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar ...
+2022.11.02 20:50:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar ...
+2022.11.02 20:50:06 ERROR 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar (288ms)
+2022.11.02 20:50:06 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle) (361ms)
+2022.11.02 20:50:06 ERROR :: retrieving :: org.scala-sbt#boot-scala
+2022.11.02 20:50:06 ERROR 	confs: [default]
+2022.11.02 20:50:06 ERROR 	5 artifacts copied, 0 already retrieved
+2022.11.02 20:50:09 INFO  [info] Updated file C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project\build.properties: set sbt.version to 1.7.1
+2022.11.02 20:50:09 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 1.8.0_291)
+2022.11.02 20:50:23 INFO  [info] loading settings for project top500songs-build-build from metals.sbt ...
+2022.11.02 20:50:26 INFO  [info] loading project definition from C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project\project
+2022.11.02 20:50:39 INFO  [info] loading settings for project top500songs-build from metals.sbt ...
+2022.11.02 20:50:39 INFO  [info] loading project definition from C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project
+2022.11.02 20:50:57 INFO  [success] Generated .bloop\top500songs-build.json
+2022.11.02 20:50:57 INFO  [success] Total time: 18 s, completed 2 nov. 2022 20:50:58
+2022.11.02 20:51:00 INFO  [info] loading settings for project top500songs from build.sbt ...
+2022.11.02 20:51:00 INFO  [info] set current project to top500songs (in build file:/C:/Users/benja/OneDrive/Documents/HES_SO_Valais_Wallis/Cours/5eme_semestre/635_1_Scala/Top500Songs/)
+2022.11.02 20:51:02 INFO  [success] Generated .bloop\top500songs.json
+2022.11.02 20:51:02 INFO  [success] Generated .bloop\top500songs-test.json
+2022.11.02 20:51:02 INFO  [success] Total time: 1 s, completed 2 nov. 2022 20:51:02
+2022.11.02 20:51:02 INFO  time: ran 'sbt bloopInstall' in 2m15s
+2022.11.02 20:51:02 INFO  Attempting to connect to the build server...
+2022.11.02 20:51:02 INFO  Setting up current java home C:\Program Files\Java\jre1.8.0_291 in C:\Users\benja\.bloop\bloop.json
+2022.11.02 20:51:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\bsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.02 20:51:24 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+nov. 02, 2022 8:51:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\Demo.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:412)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.11.02 20:51:27 INFO  Attempting to connect to the build server...
+2022.11.02 20:51:27 INFO  Bloop uses C:\Program Files\Java\jre1.8.0_291 defined at C:\Users\benja\.bloop\bloop.json
+2022.11.02 20:51:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project\.metals\bsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.02 20:51:30 INFO  time: Connected to build server in 27s
+2022.11.02 20:51:30 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.02 20:51:30 INFO  time: Imported build in 0.62s
+2022.11.02 20:51:36 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:51:43 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:51:43 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:51:43 INFO  time: indexed workspace in 12s
+2022.11.02 20:51:45 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:51:59 INFO  time: compiled top500songs in 13s
+2022.11.02 20:52:12 INFO  time: code lens generation in 3s
+2022.11.02 20:52:12 INFO  time: code lens generation in 2.54s
+2022.11.02 20:52:21 INFO  running 'C:\Program Files\Java\jre1.8.0_291\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\benja\AppData\Local\Temp\metals8994451908950351758\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.02 20:52:28 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 1.8.0_291)
+2022.11.02 20:52:31 INFO  [info] loading settings for project top500songs-build-build from metals.sbt ...
+2022.11.02 20:52:34 INFO  [info] loading project definition from C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project\project
+2022.11.02 20:52:37 INFO  [info] loading settings for project top500songs-build from metals.sbt ...
+2022.11.02 20:52:37 INFO  [info] loading project definition from C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project
+2022.11.02 20:52:44 INFO  [success] Generated .bloop\top500songs-build.json
+2022.11.02 20:52:44 INFO  [success] Total time: 8 s, completed 2 nov. 2022 20:52:45
+2022.11.02 20:52:58 INFO  [info] loading settings for project top500songs from build.sbt ...
+2022.11.02 20:52:58 INFO  [info] set current project to top500songs (in build file:/C:/Users/benja/OneDrive/Documents/HES_SO_Valais_Wallis/Cours/5eme_semestre/635_1_Scala/Top500Songs/)
+2022.11.02 20:53:04 INFO  [success] Generated .bloop\top500songs-test.json
+2022.11.02 20:53:04 INFO  [success] Generated .bloop\top500songs.json
+2022.11.02 20:53:04 INFO  [success] Total time: 5 s, completed 2 nov. 2022 20:53:04
+2022.11.02 20:53:04 INFO  time: ran 'sbt bloopInstall' in 42s
+2022.11.02 20:53:04 INFO  Disconnecting from Bloop session...
+2022.11.02 20:53:04 INFO  Shut down connection with build server.
+2022.11.02 20:53:04 INFO  Shut down connection with build server.
+2022.11.02 20:53:04 INFO  Attempting to connect to the build server...
+2022.11.02 20:53:04 INFO  Bloop uses C:\Program Files\Java\jre1.8.0_291 defined at C:\Users\benja\.bloop\bloop.json
+2022.11.02 20:53:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\bsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.02 20:53:04 INFO  Attempting to connect to the build server...
+2022.11.02 20:53:04 INFO  Bloop uses C:\Program Files\Java\jre1.8.0_291 defined at C:\Users\benja\.bloop\bloop.json
+2022.11.02 20:53:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project\.metals\bsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.02 20:53:04 INFO  time: Connected to build server in 0.25s
+2022.11.02 20:53:04 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.02 20:53:04 INFO  time: Imported build in 0.5s
+2022.11.02 20:53:06 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:53:06 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:53:06 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:53:06 INFO  time: indexed workspace in 1.58s
+2022.11.02 20:53:09 INFO  time: code lens generation in 1.6s
+2022.11.02 20:53:37 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:53:38 INFO  time: compiled top500songs in 1.65s
+2022.11.02 20:53:47 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:53:47 INFO  Deduplicating compilation of top500songs from bsp client 'Metals 0.11.9' (since 43.238s)
+2022.11.02 20:53:47 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:53:49 INFO  time: compiled top500songs in 1.42s
+nov. 02, 2022 8:53:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+nov. 02, 2022 8:53:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:54:12 INFO  Deduplicating compilation of top500songs from bsp client 'Metals 0.11.9' (since 1m 7.332s)
+nov. 02, 2022 8:54:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:54:24 INFO  Deduplicating compilation of top500songs from bsp client 'Metals 0.11.9' (since 1m 20.048s)
+2022.11.02 20:54:24 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:54:24 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:54:25 INFO  time: compiled top500songs in 0.99s
+nov. 02, 2022 8:54:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+nov. 02, 2022 8:54:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+nov. 02, 2022 8:54:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 193
+2022.11.02 20:54:53 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:54:54 INFO  time: compiled top500songs in 1.1s
+nov. 02, 2022 8:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:55:11 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:55:12 INFO  time: compiled top500songs in 1.11s
+nov. 02, 2022 8:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:56:07 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\src\main\scala\demo\Demo.scala
+2022.11.02 20:56:27 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\src\main\scala\demo\Demo.scala
+2022.11.02 20:56:33 WARN  no build target for: C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\src\main\scala\demo\Demo.scala
+2022.11.02 20:57:01 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:57:01 INFO  time: compiled top500songs in 0.36s
+2022.11.02 20:57:13 INFO  compiling top500songs (1 scala source)
+2022.11.02 20:57:13 INFO  time: compiled top500songs in 0.41s
+2022.11.02 20:57:17 INFO  Deduplicating compilation of top500songs from bsp client 'Metals 0.11.9' (since 4m 12.565s)
+nov. 02, 2022 8:57:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:57:19 INFO  Deduplicating compilation of top500songs from bsp client 'Metals 0.11.9' (since 4m 14.908s)
+nov. 02, 2022 8:57:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:57:37 INFO  Deduplicating compilation of top500songs from bsp client 'Metals 0.11.9' (since 4m 33.244s)
+nov. 02, 2022 8:57:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:57:55 INFO  shutting down Metals
+2022.11.02 20:57:56 INFO  Shut down connection with build server.
+2022.11.02 20:57:56 INFO  Shut down connection with build server.
+2022.11.02 20:58:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\lsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.11.02 20:58:38 INFO  logging to file C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\metals.log
+2022.11.02 20:58:38 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs' for client Visual Studio Code 1.72.2.
+2022.11.02 20:58:38 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files\Java\jre1.8.0_291, javac exists: false)
+2022.11.02 20:58:40 INFO  time: initialize in 2.04s
+2022.11.02 20:58:40 INFO  Attempting to connect to the build server...
+2022.11.02 20:58:41 INFO  Bloop uses C:\Program Files\Java\jre1.8.0_291 defined at C:\Users\benja\.bloop\bloop.json
+2022.11.02 20:58:42 INFO  skipping build import with status 'Installed'
+2022.11.02 20:58:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\.metals\bsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.02 20:58:43 INFO  Attempting to connect to the build server...
+2022.11.02 20:58:43 INFO  Bloop uses C:\Program Files\Java\jre1.8.0_291 defined at C:\Users\benja\.bloop\bloop.json
+2022.11.02 20:58:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\project\.metals\bsp.trace.json or C:\Users\benja\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.11.02 20:58:43 INFO  time: Connected to build server in 1.98s
+2022.11.02 20:58:43 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.02 20:58:47 INFO  no build target found for C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\demo\Demo.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.02 20:58:47 INFO  time: code lens generation in 6.88s
+2022.11.02 20:58:48 INFO  time: Imported build in 0.33s
+2022.11.02 20:58:50 INFO  no build target found for C:\Users\benja\OneDrive\Documents\HES_SO_Valais_Wallis\Cours\5eme_semestre\635_1_Scala\Top500Songs\src\main\scala\demo\Demo.scala. Using presentation compiler with project's scala-library version: 3.2.0
+nov. 02, 2022 8:58:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+nov. 02, 2022 8:58:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+nov. 02, 2022 8:58:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+nov. 02, 2022 8:58:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2022.11.02 20:58:54 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:58:59 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:58:59 WARN  Could not find java sources in C:\Program Files\Java\src.zip, C:\Program Files\Java\lib\src.zip, C:\Program Files\Java\jre1.8.0_291\src.zip, C:\Program Files\Java\jre1.8.0_291\lib\src.zip. Java symbols will not be available.
+2022.11.02 20:58:59 INFO  time: indexed workspace in 10s
+nov. 02, 2022 8:59:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$6(BuildServerConnection.scala:358)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:356)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:339)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 3 more
+
+2022.11.02 20:59:14 INFO  shutting down Metals
+2022.11.02 20:59:14 INFO  Shut down connection with build server.
+nov. 02, 2022 8:59:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:257)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:26)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:26)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:26)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.cancel(MetalsLanguageServer.scala:137)
+	at scala.meta.internal.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:1039)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.ensureWriteOpen(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at sun.nio.ch.SinkChannelImpl.write(Unknown Source)
+	at java.nio.channels.Channels.writeFullyImpl(Unknown Source)
+	at java.nio.channels.Channels.writeFully(Unknown Source)
+	at java.nio.channels.Channels.access$000(Unknown Source)
+	at java.nio.channels.Channels$1.write(Unknown Source)
+	at java.io.OutputStream.write(Unknown Source)
+	at java.nio.channels.Channels$1.write(Unknown Source)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(Unknown Source)
+	at java.io.FilterOutputStream.write(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 39 more
+
+2022.11.02 20:59:14 INFO  Cancelling compilation on Bloop server
