@@ -21,18 +21,6 @@ object Demo {
     }
 
     val titles = data.filter({ i => i.charAt(0) == 'L' })
-//    val titles2 = data.filter({ i => new Song {
-//      override val title: String = cols(0)
-//      override val description: String = cols(1)
-//      override val appear: String = cols(2)
-//      override val artist: String = cols(3)
-//      override val writer: String = cols(4)
-//      override val producer: String = cols(5)
-//      override val released: String = cols(6)
-//            override val streak: Int = cols(7)
-//            override val position: Int = cols(8)
-
-
 
     for (i <- titles) {
       println(i)
