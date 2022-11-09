@@ -7,18 +7,58 @@ import scala.io.Source
 
 object Demo {
   def main(args: Array[String]): Unit = {
+
+    trait person {
+      val name: String
+    }
+
+    class Producer(val name: String) extends person
+    class Writer(val name: String) extends person
+
+
+    class Artist(val name: String) extends person
+
+
+    class Song(val title: String, val description: String, val appear: String, val artist: String, val writer: String, val producer: String, val releaseDate: String, val streak: String, val position: String) {
+      val songTitle = title
+      val songDescription = description
+      val songAlbum = appear
+      val songArtist = new Artist(artist)
+      val songWriter = new Writer(writer)
+      val songProducer = new Producer(producer)
+      val releasedDate = releaseDate
+      val songStreak = streak
+      val songMaxPosition = position
+    }
+
     //Get absolute path from csv file
     val csvFilename = "CSV/01-Top500Songs.csv"
 
     //Retrieve data from csv file
     val data = Source.fromFile(csvFilename).getLines.toList
 
+    val allSong=new java.util.ArrayList[Song]
+
     //Print all lines of data
     for (i <- data) {
+      println(i)
       val cols = i.split(";")
-//        println(cols(cols.size-1))
-//      println(i)
+      if(cols.length > 8) {
+        //      val mySong = new Song(cols(0),cols(1),cols(2),cols(3),cols(4),cols(5),cols(6),cols(7).toInt,cols(8).toInt)
+        val mySong = new Song(cols(0), cols(1), cols(2), cols(3), cols(4), cols(5), cols(6), cols(7), cols(8))
+        allSong.add(mySong)
+      }
     }
+
+    print(allSong.size() + " number of song")
+//
+//    allSong.forEach(song =>{
+//      print(song.title + " | ")
+//      print(song.description + " | ")
+//
+//      println(song.artist)
+//    })
+
 
     val titles = data.filter({ i => i.charAt(0) == 'L' })
 //    val titles2 = data.filter({ i => new Song {
@@ -33,34 +73,12 @@ object Demo {
 //            override val position: Int = cols(8)
 
 
-
-    for (i <- titles) {
-      println(i)
-    }
-
-    trait person {
-        val name: String
-    }
-
-    class Producer(val name: String) extends  person
-    class Writer(val name: String) extends person
+//
+//    for (i <- titles) {
+//      println(i)
+//    }
 
 
-    class Artist(val name: String) extends person
-
-
-    class Song(val title:String,val description: String, val appear: String, val artist:String,val writer:String,val producer:String,val releaseDate:String,val streak:Int, val position:Int) {
-      val songTitle = title
-      val songDescription = description
-      val songAlbum = appear
-
-      val songArtist = new Artist(artist)
-      val songWriter = new Writer(writer)
-      val songProducer = new Producer(producer)
-      val releasedDate =  releaseDate
-      val songStreak = streak
-      val songMaxPosition = position
-    }
 
 
 
