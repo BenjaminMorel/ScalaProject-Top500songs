@@ -27,12 +27,12 @@ object Demo {
       val songWriter = new Writer(writer)
       val songProducer = new Producer(producer)
       val releasedDate = releaseDate
-      val songStreak = streak
-      val songMaxPosition = position
+//      val songStreak = streak
+//      val songMaxPosition = position
     }
 
     //Get absolute path from csv file
-    val csvFilename = "CSV/01-Top500Songs.csv"
+    val csvFilename = "CSV/scalaFIle.csv"
 
     //Retrieve data from csv file
     val data = Source.fromFile(csvFilename).getLines.toList
@@ -41,22 +41,25 @@ object Demo {
 
     //Print all lines of data
     for (i <- data) {
-      println(i)
+    // println(i)
       val cols = i.split(";")
+
       if(cols.length > 8) {
         //      val mySong = new Song(cols(0),cols(1),cols(2),cols(3),cols(4),cols(5),cols(6),cols(7).toInt,cols(8).toInt)
-        val mySong = new Song(cols(0), cols(1), cols(2), cols(3), cols(4), cols(5), cols(6), cols(7), cols(8))
+        val mySong = new Song(cols(0), cols(1), cols(2), cols(3), cols(4), cols(5), cols(6), cols(7),cols(8))
+        allSong.add(mySong)
+      }else {
+        val mySong = new Song(cols(0), cols(1), cols(2), cols(3), cols(4), cols(5), cols(6), "","")
         allSong.add(mySong)
       }
+        println(allSong.size())
+
     }
 
-    print(allSong.size() + " number of song")
-//
 //    allSong.forEach(song =>{
 //      print(song.title + " | ")
-//      print(song.description + " | ")
+//      println(song.songArtist.name + " | ")
 //
-//      println(song.artist)
 //    })
 
 
